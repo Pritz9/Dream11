@@ -1,7 +1,7 @@
 import pickle
 from selenium import webdriver
 import time
-
+// Added to check smart sync
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -15,3 +15,4 @@ finally:
     pass
 
 pickle.dump(chrome.get_cookies(), open("cookie.txt","wb"))
+
